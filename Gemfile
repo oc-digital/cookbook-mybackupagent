@@ -13,4 +13,8 @@ gem 'berkshelf'
 #   gem "vagrant-berkshelf", github: "berkshelf/vagrant-berkshelf"
 #   gem "vagrant-omnibus", github: "schisamo/vagrant-omnibus"
 # end
-
+group :development do
+  gem 'knife-solo'
+  gem 'test-kitchen'
+end
+gem 'kitchen-vagrant'
