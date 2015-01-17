@@ -16,5 +16,8 @@ Gemfile.lock
 bin/*
 .bundle/*
 
+.chef
 .kitchen/
 .kitchen.local.yml
+
+.DS_Store
