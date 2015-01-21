@@ -29,6 +29,7 @@ common_packages = %w{
   libxslt1-dev
   libyaml-dev
   make
+  memcached
   openssl
   pkg-config
   sqlite3
