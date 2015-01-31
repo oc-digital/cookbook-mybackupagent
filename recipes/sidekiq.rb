@@ -7,6 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
+include_recipe "redisio"
+include_recipe "redisio::enable"
+
 template "etc/init/sidekiq.conf" do
   source "sidekiq_conf.erb"
   variables({
